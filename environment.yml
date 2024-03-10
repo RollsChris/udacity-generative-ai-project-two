@@ -1,0 +1,16 @@
+name: udacity-gen-ai-project-two
+channels:
+  - defaults
+  - pytorch
+  - nvidia
+  - anaconda
+dependencies:
+  - python
+  - openai=0.27
+  - numpy
+  - pandas
+  - ipykernel
+  - pip
+  - pip:
+    - tiktoken
+    - python-dotenv
